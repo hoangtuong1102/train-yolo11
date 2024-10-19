@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['car']
+
+roboflow:
+  workspace: test-cbhl5
+  project: car-from-video
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/test-cbhl5/car-from-video/dataset/1
