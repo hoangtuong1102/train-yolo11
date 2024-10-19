@@ -8,7 +8,7 @@ MODEL_PATH = "/Users/user/PycharmProjects/trainyolo/yolo11n.pt"  # Cập nhật 
 model = YOLO(MODEL_PATH)
 
 # Đường dẫn tới ảnh cần dự đoán
-IMAGE_PATH = "/data/test/images/R0011089_MP4-0039_jpg.rf.4be31ecd4d1d65b140ca61845764641a.jpg"  # Cập nhật đường dẫn ảnh
+IMAGE_PATH = "/Users/user/PycharmProjects/train-yolo11/data/R0010716.JPG"  # Cập nhật đường dẫn ảnh
 
 # Thực hiện phát hiện đối tượng
 results = model(IMAGE_PATH)
